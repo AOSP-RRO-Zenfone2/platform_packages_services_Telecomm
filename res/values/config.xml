@@ -22,6 +22,9 @@
          avoid the risk of accidental redialing from the call log UI.
          The default is false. -->
     <bool name="allow_emergency_numbers_in_call_log">false</bool>
+    
+    <!-- DSDA phones that don't support local call hold need special handling -->
+    <bool name="dsda_supports_lch">false</bool>
 
     <!-- Determine whether we want to play local DTMF tones in a call, or just let the radio/BP
          handle playing of the tones. -->
